@@ -1,0 +1,33 @@
+# ---- local tooling / private workspace ----
+.workbuddy/
+
+# ---- runtime logs (may contain private request content) ----
+logs/
+*.log
+*.jsonl
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# ---- pyinstaller build cache ----
+build/
+bridge/build/
+bridge/work/
+*.spec.bak
+
+# ---- browser profile / debug dumps ----
+user_data_dir/
+*tmp_profile*/
+dom_probe.json.bak
+
+# ---- os / editor ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/

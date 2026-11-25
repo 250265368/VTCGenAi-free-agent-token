@@ -1,0 +1,48 @@
+{
+  "generated_from": "YaoGaoChaoLe/EAgent @ 48d4caf",
+  "license": "GPL-3.0",
+  "note": "四个站点共用同一个 CDP 端口，同一时间只能运行一个站点；切换站点需先关闭浏览器。VTC AI 使用独立的 vtc_debug_profile 登录态。",
+  "cdp_port": 9222,
+  "sites": {
+    "deepseek": {
+      "label": "DeepSeek 网页版",
+      "url": "https://chat.deepseek.com",
+      "url_match": "chat\\.deepseek\\.com",
+      "scripts": {
+        "1": "scripts/deepseek/1_start.ps1",
+        "2": "scripts/deepseek/2_send.ps1",
+        "3": "scripts/deepseek/3_close.ps1"
+      }
+    },
+    "doubao": {
+      "label": "豆包网页版",
+      "url": "https://www.doubao.com/chat/",
+      "url_match": "doubao\\.com",
+      "scripts": {
+        "1": "scripts/doubao/1_start.ps1",
+        "2": "scripts/doubao/2_send.ps1",
+        "3": "scripts/doubao/3_close.ps1"
+      }
+    },
+    "yuanbao": {
+      "label": "腾讯元宝网页版",
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+      "url_match": "yuanbao\\.tencent\\.com",
+      "scripts": {
+        "1": "scripts/yuanbao/1_start.ps1",
+        "2": "scripts/yuanbao/2_send.ps1",
+        "3": "scripts/yuanbao/3_close.ps1"
+      }
+    },
+    "vtc": {
+      "label": "VTC AI",
+      "url": "https://genai.vtc.edu.hk/",
+      "url_match": "genai\\.vtc\\.edu\\.hk",
+      "scripts": {
+        "1": "scripts/vtc/1_start.ps1",
+        "2": "scripts/vtc/2_send.ps1",
+        "3": "scripts/vtc/3_close.ps1"
+      }
+    }
+  }
+}

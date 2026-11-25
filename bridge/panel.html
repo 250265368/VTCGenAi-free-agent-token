@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EAgent Bridge 控制台</title>
+<style>
+:root{
+  --bg:#0f1115; --card:#191d26; --border:#2a3040; --text:#e7eaf0;
+  --muted:#8b93a7; --accent:#5ee0a0; --warn:#f0b454; --danger:#f07070;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:14px/1.6 "Microsoft YaHei","Segoe UI",system-ui,sans-serif}
+.app{max-width:920px;margin:0 auto;padding:24px 20px 40px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+h1{font-size:20px;font-weight:500;margin:0;letter-spacing:.5px}
+.badge{margin-left:auto;font-size:12px;padding:4px 12px;border-radius:20px;
+  background:rgba(94,224,160,.12);color:var(--accent);border:1px solid rgba(94,224,160,.3)}
+.badge.off{background:rgba(240,112,112,.12);color:var(--danger);border-color:rgba(240,112,112,.3)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:18px 20px;margin-bottom:14px}
+h2{font-size:14px;font-weight:500;margin:0 0 14px;color:var(--text)}
+.row{display:flex;align-items:center;gap:12px;margin:10px 0;flex-wrap:wrap}
+.row>label,.row>.k{width:130px;color:var(--muted);flex-shrink:0}
+select{flex:1;min-width:220px;background:#11151d;color:var(--text);
+  border:1px solid var(--border);border-radius:8px;padding:9px 12px;font-size:14px;outline:none}
+select:focus{border-color:var(--accent)}
+code{background:#11151d;border:1px solid var(--border);border-radius:6px;
+  padding:3px 9px;color:var(--accent);font-size:13px;user-select:all}
+.hint{color:var(--muted);font-size:12px;margin:12px 0 0;line-height:1.7}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+button{background:#222836;color:var(--text);border:1px solid var(--border);
+  border-radius:8px;padding:10px 16px;font-size:13px;cursor:pointer;transition:.15s}
+button:hover{border-color:var(--accent);background:#28303f}
+button:disabled{opacity:.45;cursor:wait}
+button.primary{background:rgba(94,224,160,.14);border-color:rgba(94,224,160,.45);color:var(--accent)}
+button.primary:hover{background:rgba(94,224,160,.24)}
+button.danger{color:var(--danger);border-color:rgba(240,112,112,.3)}
+button.mini{padding:3px 10px;font-size:12px;float:right;margin-top:-4px}
+pre{background:#0b0e13;border:1px solid var(--border);border-radius:8px;
+  height:210px;overflow:auto;padding:12px 14px;margin:0;
+  font:12px/1.7 Consolas,"Microsoft YaHei",monospace;color:#c8d0de;white-space:pre-wrap}
+footer{color:var(--muted);font-size:12px;text-align:center;margin-top:22px;line-height:1.8}
+.warnbox{margin-top:12px;padding:10px 12px;border-left:3px solid var(--warn);
+  background:rgba(240,180,84,.07);color:#d9c39c;font-size:12px;border-radius:0 6px 6px 0}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>EAgent Bridge</h1>
+    <span id="status" class="badge">连接中…</span>
+  </header>
+
+  <section class="card">
+    <h2>网页站点</h2>
+    <div class="row">
+      <label for="site">当前使用的网页 AI</label>
+      <select id="site"></select>
+    </div>
+    <p class="hint">选择后<b>立即生效</b>并自动保存到 <code>config.json</code>，下次开程序还是这个站点。<br>
+      三个站点共用调试端口 9222 和同一个浏览器配置目录，<b>切换前请先点「关闭浏览器」</b>。</p>
+    <div class="warnbox" id="switchMsg" style="display:none"></div>
+  </section>
+
+  <section class="card">
+    <h2>接入 DeepSeek Harness</h2>
+    <div class="row"><span class="k">Base URL</span><code id="base"></code></div>
+    <div class="row"><span class="k">Model ID</span><code id="model"></code></div>
+    <div class="row"><span class="k">协议 / API Key</span><code>OpenAI Chat Completions</code><code>任意字符串</code></div>
+    <p class="hint">在 Harness 的 设置 → 模型 → 添加自定义模型 API 里填上面两项，并记得选择工作区。</p>
+  </section>
+
+  <section class="card">
+    <h2>操作</h2>
+    <div class="btns">
+      <button id="btnBrowser" class="primary">打开网页 AI 并登录</button>
+      <button id="btnClose">关闭浏览器</button>
+      <button id="btnSelftest">自检</button>
+      <button id="btnReset">重置对话缓存</button>
+      <button id="btnShutdown" class="danger">退出程序</button>
+    </div>
+    <p class="hint" id="usage" style="margin-top:14px"></p>
+    <p class="hint">服务已随本窗口自动启动，不需要再点「启动」。<br>
+      首次使用：点「打开网页 AI 并登录」→ 在弹出的 Edge 窗口里登录 → 之后直接去 Harness 发任务。<br>
+      <b>增量模式</b>：只有第一轮带精简背景，之后只把新增的一条消息发给网页 AI，网页端自己会记住上下文。<br>
+      点「打开网页 AI 并登录」会自动重置桥的对话缓存；如果你在网页端手动开了新对话，也可点「重置对话缓存」。<br>
+      注意：DSH 的会话和网页端的聊天记录是两套独立状态，任一边开新会话都只清自己那一边。<br>
+      网页只用来看，发消息请在 Harness 里进行。</p>
+  </section>
+
+  <section class="card">
+    <h2>运行日志 <button id="btnClear" class="mini">清空显示</button></h2>
+    <pre id="log"></pre>
+  </section>
+
+  <footer>
+    基于 EAgent (GPL-3.0) 二次开发 · 桥只监听 127.0.0.1，不执行 AI 生成的命令<br>
+    网页自动化可能违反目标站用户协议并有封号风险，请低频自用
+  </footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let extra = '';
+let cleared = false;
+
+async function api(path, body){
+  const opt = body ? {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)} : {};
+  const r = await fetch(path, opt);
+  const t = await r.text();
+  try { return JSON.parse(t); } catch(e) { return {raw:t}; }
+}
+function note(msg){ extra += msg + '\n'; renderLog(); }
+function renderLog(lines){
+  const base = lines ? lines.map(x => '['+x.t+'] '+x.msg).join('\n') : '';
+  $('log').textContent = (base ? base+'\n' : '') + extra;
+  $('log').scrollTop = $('log').scrollHeight;
+}
+
+async function loadConfig(){
+  const c = await api('/api/config');
+  if(c.error) return;
+  const sel = $('site');
+  sel.innerHTML = '';
+  c.sites.forEach(s=>{
+    const o=document.createElement('option');
+    o.value=s.id; o.textContent=s.label+'  ·  '+s.url;
+    if(s.id===c.site) o.selected=true;
+    sel.appendChild(o);
+  });
+  $('base').textContent = c.base_url;
+  $('model').textContent = c.model_alias;
+}
+
+async function poll(){
+  try{
+    const [st, lg] = await Promise.all([api('/api/status'), api('/api/logs')]);
+    $('status').textContent = '服务运行中 · '+st.site_label+' · 队列 '+st.queued;
+    $('status').className = 'badge';
+    const sc = st.session_chars || 0;
+    $('usage').innerHTML = '本会话累计注入网页 <b>'+sc.toLocaleString()+'</b> 字（估算 '+Math.round(sc/2).toLocaleString()+' token，网页端重读历史会更高）。'
+      + (sc>60000 ? ' <span style="color:var(--warn)">用量已偏大：建议在网页端开新对话并点「重置对话缓存」，省额度也提速。</span>' : '');
+    renderLog(lg.lines || []);
+  }catch(e){
+    $('status').textContent = '服务已停止';
+    $('status').className = 'badge off';
+  }
+}
+
+$('site').addEventListener('change', async e=>{
+  const res = await api('/api/config', {site:e.target.value});
+  if(res.error){ note('切换失败：'+res.error.message); return; }
+  note('已切换到 '+res.label+(res.saved?'（已保存到 config.json）':'（仅本次有效）'));
+  const box=$('switchMsg');
+  box.style.display='block';
+  box.textContent='已切换。若浏览器还开着，请点「关闭浏览器」，再重新打开并登录新站点。';
+  await poll();
+});
+
+async function act(btn, path, body, label){
+  btn.disabled=true;
+  const old=btn.textContent; btn.textContent='执行中…';
+  note('→ '+label);
+  try{
+    const r = await api(path, body);
+    if(r.error) note('失败：'+r.error.message);
+    else if(r.output) note(r.output);
+    else if(r.ok) note('已发送退出指令，本窗口可以直接关闭。');
+    else note('完成');
+  }catch(e){ note('请求失败：'+e); }
+  btn.disabled=false; btn.textContent=old;
+  await poll();
+}
+
+$('btnBrowser').onclick = e => act(e.target,'/api/browser',{action:'start'},'打开调试浏览器');
+$('btnClose').onclick   = e => act(e.target,'/api/browser',{action:'stop'},'关闭调试浏览器');
+$('btnSelftest').onclick= e => act(e.target,'/api/selftest',{},'运行自检');
+$('btnReset').onclick   = e => act(e.target,'/api/session/reset',{},'重置对话缓存');
+$('btnShutdown').onclick= async e => {
+  if(!confirm('确定退出 EAgent Bridge？Harness 将无法再连接。')) return;
+  await act(e.target,'/api/shutdown',{},'退出程序');
+};
+$('btnClear').onclick = ()=>{ extra=''; renderLog([]); };
+
+loadConfig();
+poll();
+setInterval(poll, 1500);
+</script>
+</body>
+</html>

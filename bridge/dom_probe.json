@@ -1,0 +1,4454 @@
+{
+  "url": "https://genai.vtc.edu.hk/",
+  "title": "VTC GenAI",
+  "inputs": [
+    {
+      "tag": "TEXTAREA",
+      "cls": "\n            m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-16 pl-4 outline-none\n            text-black dark:bg-transparent dark:text-white\n        ",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Type a message...",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        297,
+        878,
+        538,
+        80
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "\n            m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-16 pl-4 outline-none\n            text-black dark:bg-transparent dark:text-white\n        ",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Type a message...",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "flex-1 resize-none border-0 bg-transparent focus:outline-none text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 text-[15px] leading-r",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Describe the image you want to generate...",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "flex-1 resize-none border-0 bg-transparent focus:outline-none text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 text-sm leading-relax",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Describe the image you want to generate...",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none bg-transparent px-4 pt-4 pb-3 text-sm text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 outline-none",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Ask anything…",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none bg-transparent px-4 pt-4 pb-16 text-sm text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 outline-none min-h-[20",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Type or paste text here…",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full min-h-[160px] p-4 text-sm bg-transparent resize-none focus:outline-none caret-gray-800 dark:caret-gray-100 leading-relaxed text-gray-800 dark:text-gray-1",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Paste or type text to check…",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full min-h-[180px] p-4 text-sm bg-transparent resize-none focus:outline-none text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 l",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Enter the topic you want to write about",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none transition focus:border-sky-400 focus:ring-2 focu",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Example: A program manager in the healthcare industry",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none transition focus:border-sky-400 focus:ring-2 focu",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Example: Draft an executive summary email to the executive sponsor",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none transition focus:border-sky-400 focus:ring-2 focu",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Example: Milestones, risks, decisions, and metrics from the program documents",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "cls": "w-full resize-none rounded-lg border border-gray-200 bg-gray-50 px-3 py-2.5 text-sm text-gray-900 outline-none transition focus:border-sky-400 focus:ring-2 focu",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Example: Limit the response to concise bullet points",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "cls": "w-full px-3 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white outline-none transition-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "Search conversations...",
+      "type": "text",
+      "len": 0,
+      "head": "",
+      "rect": [
+        867,
+        151,
+        368,
+        37
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-sky-600 bg-sky-50/50 dark:bg-sky-900/30 border-2 border-sky-600 dark:border-sky-500",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 4,
+      "head": "Chat",
+      "rect": [
+        24,
+        145,
+        231,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-gray-700 dark:text-white hover:bg-gray-100/60 dark:hover:bg-gray-800/30",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 16,
+      "head": "Image Generation",
+      "rect": [
+        24,
+        199,
+        231,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-gray-700 dark:text-white hover:bg-gray-100/60 dark:hover:bg-gray-800/30",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 3,
+      "head": "Ask",
+      "rect": [
+        24,
+        291,
+        231,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-gray-700 dark:text-white hover:bg-gray-100/60 dark:hover:bg-gray-800/30",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 5,
+      "head": "Write",
+      "rect": [
+        24,
+        341,
+        231,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-gray-700 dark:text-white hover:bg-gray-100/60 dark:hover:bg-gray-800/30",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 9,
+      "head": "Translate",
+      "rect": [
+        24,
+        391,
+        231,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex px-3 py-2.5 rounded-lg transition-colors text-left text-gray-700 dark:text-white hover:bg-gray-100/60 dark:hover:bg-gray-800/30",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 7,
+      "head": "Grammar",
+      "rect": [
+        24,
+        441,
+        231,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-2 rounded-lg transition-colors text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-zinc-800",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "Sharepoint",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        66,
+        936,
+        36,
+        36
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-2 rounded-lg transition-colors text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-zinc-800",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "Settings",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        122,
+        936,
+        36,
+        36
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-2 rounded-lg transition-colors text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-zinc-800",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "User",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        178,
+        936,
+        36,
+        36
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "sm:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "New Conversation",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex gap-1.5 items-center rounded bg-none p-1 text-xs text-white",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 9,
+      "head": "Copy code",
+      "rect": [
+        675,
+        -207,
+        92,
+        26
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center rounded bg-none p-1 text-xs text-white",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        767,
+        -207,
+        26,
+        26
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 px-3 py-1.5 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-7",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 4,
+      "head": "Copy",
+      "rect": [
+        428,
+        -97,
+        83,
+        32
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 px-3 py-1.5 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-7",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 4,
+      "head": "Copy",
+      "rect": [
+        428,
+        745,
+        83,
+        32
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 px-3 py-1.5 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 dark:text-gray-400 dark:hover:text-blue-400 dark:hover:bg-blue-90",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 10,
+      "head": "Regenerate",
+      "rect": [
+        523,
+        745,
+        124,
+        32
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border border-neutral-200 bg-white py-2 px-3 text-sm text-black hover:opacity-70 dark:border-neutral-600 dark:bg-[#343541] da",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 17,
+      "head": "DeepSeek V4 Flash",
+      "rect": [
+        313,
+        799,
+        140,
+        57
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 8,
+      "head": "New Chat",
+      "rect": [
+        461,
+        813,
+        30,
+        30
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 rounded-lg group transition-colors text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 hover:bg-gray-100 dark:hover:bg-gr",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 12,
+      "head": "Chat History",
+      "rect": [
+        497,
+        813,
+        30,
+        30
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 26,
+      "head": "Attach Files (0 extracted)",
+      "rect": [
+        533,
+        813,
+        30,
+        30
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 9,
+      "head": "Clear All",
+      "rect": [
+        569,
+        813,
+        30,
+        30
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 15,
+      "head": "475156 / 500000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        789,
+        813,
+        30,
+        30
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 ",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 0,
+      "head": "",
+      "rect": [
+        791,
+        905,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex h-7 w-7 items-center justify-center rounded-full bg-neutral-300 text-gray-800 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-sky-500 ",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        807,
+        800,
+        28,
+        28
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "sm:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "New Conversation",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm transition-colors border-neutral-200 dark:border-neutral-600 bg-white dark:bg-[#343541] text-gray-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 13,
+      "head": "GPT-6.1-terra",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 8,
+      "head": "New Chat",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 rounded-lg group transition-colors text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 hover:bg-gray-100 dark:hover:bg-gr",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 12,
+      "head": "Chat History",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 12,
+      "head": "Browse Files",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group transition-colors text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-s",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 56,
+      "head": "Pin Documents — Always include selected files as context",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "relative p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 14,
+      "head": "Clear Messages",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 15,
+      "head": "500000 / 500000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 ",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "sm:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "Settings",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-between gap-2 px-3 py-2 text-sm bg-white dark:bg-gray-700 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 11,
+      "head": "GPT Image 2",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 7,
+      "head": "30 / 30",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-between gap-2 px-3 py-2 text-sm bg-white dark:bg-gray-700 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 15,
+      "head": "Aspect Ratio1:1",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-between gap-2 px-3 py-2 text-sm bg-white dark:bg-gray-700 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 10,
+      "head": "Formatjpeg",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 dark:hover:bg-sky-900/20 transition-colors disabled:o",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "text-xs text-blue-500 dark:text-blue-400 font-medium",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 4,
+      "head": "Edit",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 dark:hover:bg-sky-900/20 transition-colors disabled:o",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm transition-colors border-neutral-200 dark:border-neutral-600 bg-white dark:bg-[#343541] text-gray-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 17,
+      "head": "DeepSeek V4 Flash",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-1.5 rounded-lg border border-neutral-200 dark:border-neutral-600 bg-white dark:bg-[#343541] px-3 py-1.5 text-sm text-gray-700 dark:text-gr",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 13,
+      "head": "Custom prompt",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 15,
+      "head": "475156 / 500000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center justify-between w-full px-4 py-3 text-sm bg-gray-50 dark:bg-gray-800/60 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 13,
+      "head": "System Prompt",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 dark:hover:bg-sky-900/20 transition-colors disabled:o",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border border-neutral-200 bg-white py-2 px-3 text-sm text-black hover:opacity-70 dark:border-neutral-600 dark:bg-[#343541] da",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 17,
+      "head": "DeepSeek V4 Flash",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-1.5 rounded-lg border border-gray-200 dark:border-neutral-600 bg-white dark:bg-[#343541] px-2.5 py-1.5 text-xs text-gray-600 dark:text-gra",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 13,
+      "head": "Monthly Token",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border border-neutral-200 bg-white py-2 px-3 text-sm text-black hover:opacity-70 dark:border-neutral-600 dark:bg-[#343541] da",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 19,
+      "head": "Default preferences",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 11,
+      "head": "Auto Detect",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 rounded-lg text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-700 transition-colors disabled:opacity-30 disab",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 7,
+      "head": "English",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 dark:hover:bg-sky-900/20 transition-colors disabled:o",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm transition-colors border-neutral-200 dark:border-neutral-600 bg-white dark:bg-[#343541] text-gray-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 13,
+      "head": "GPT-6.1-terra",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 15,
+      "head": "500000 / 500000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1.5 text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 rounded-lg hover:bg-sky-50 dark:hover:bg-sky-900/20 transition-colors disabled:o",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 9,
+      "head": "200 / 200",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "pb-3 text-base font-medium capitalize transition-colors relative text-gray-900 dark:text-white",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 5,
+      "head": "write",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "pb-3 text-base font-medium capitalize transition-colors relative text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 5,
+      "head": "reply",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-2 rounded-full text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "History",
+      "ph": "",
+      "type": "button",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-violet-100 dark:bg-violet-900/40 text-gray-900 dark:text-gray-100 border-violet-200 d",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 5,
+      "head": "Email",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 5,
+      "head": "Essay",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 9,
+      "head": "Paragraph",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 4,
+      "head": "Idea",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 9,
+      "head": "Blog Post",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 7,
+      "head": "Outline",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 13,
+      "head": "Marketing Ads",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 7,
+      "head": "Comment",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 7,
+      "head": "Message",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-3.5 py-1.5 rounded-full text-sm font-medium transition-colors border bg-white dark:bg-[#40414f] text-gray-700 dark:text-gray-300 border-gray-200 dark:border-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 7,
+      "head": "Twitter",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm transition-colors border-neutral-200 dark:border-neutral-600 bg-white dark:bg-[#343541] text-gray-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 17,
+      "head": "DeepSeek V4 Flash",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "md:hidden relative flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounde",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 15,
+      "head": "475156 / 500000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "hidden md:block p-1.5 text-gray-500 hover:text-sky-500 dark:text-gray-400 dark:hover:text-sky-400 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 0,
+      "head": "",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-2 rounded-full border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-[#40414f] py-2 px-4 text-sm text-gray-700 dark:text-gray-200",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 24,
+      "head": "Formal - Short - English",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "px-5 py-1.5 rounded-full text-sm font-medium transition-colors disabled:bg-gray-200 disabled:text-gray-400 dark:disabled:bg-gray-700 dark:disabled:text-gray-500",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 6,
+      "head": "Submit",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "rounded-lg border border-sky-300 bg-white px-3 py-1.5 text-xs font-medium text-sky-700 transition hover:bg-sky-50 disabled:cursor-not-allowed disabled:opacity-4",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 19,
+      "head": "Fill missing for me",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "rounded-full border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-sky-400 hover:text-sky-700 dark:border-gray-6",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 15,
+      "head": "Executive email",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "rounded-full border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-sky-400 hover:text-sky-700 dark:border-gray-6",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 15,
+      "head": "Explain a topic",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "rounded-full border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-sky-400 hover:text-sky-700 dark:border-gray-6",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 12,
+      "head": "Project plan",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "rounded-full border border-gray-300 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-sky-400 hover:text-sky-700 dark:border-gray-6",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 15,
+      "head": "Compare options",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 11,
+      "head": "Need ideas?",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 11,
+      "head": "Need ideas?",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 11,
+      "head": "Need ideas?",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "text-xs font-medium text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 11,
+      "head": "Need ideas?",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "inline-flex items-center gap-2 rounded-lg bg-sky-500 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-600 disabled:cursor-not-allowed disabl",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 15,
+      "head": "Generate prompt",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "inline-flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2.5 text-sm font-medium text-gray-700 transition hover:bg-gray-100 disabled:cursor-not-",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "button",
+      "len": 5,
+      "head": "Reset",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex items-center gap-1 px-3 py-2 rounded-lg bg-gray-200 dark:bg-zinc-600 text-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-zinc-500 transition-colo",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 4,
+      "head": "Menu",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors bg-sky-100 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 10,
+      "head": "ChatActive",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 16,
+      "head": "Image Generation",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 3,
+      "head": "Ask",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 5,
+      "head": "Write",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 9,
+      "head": "Translate",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 7,
+      "head": "Grammar",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-700",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 8,
+      "head": "Settings",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 6,
+      "head": "Logout",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "p-1 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition-colors",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        1207,
+        16,
+        28,
+        28
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex w-full items-center justify-center gap-3 rounded-md border border-gray-200 dark:border-gray-600 p-3 text-gray-700 dark:text-gray-200 bg-gray-50 dark:bg-gra",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 8,
+      "head": "New Chat",
+      "rect": [
+        867,
+        77,
+        368,
+        45
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "opacity-0 group-hover:opacity-100 p-1 text-sky-600 hover:bg-sky-50 dark:hover:bg-sky-900/20 rounded transition-all",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        1175,
+        208,
+        22,
+        22
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "opacity-0 group-hover:opacity-100 p-1 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded transition-all",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 0,
+      "head": "",
+      "rect": [
+        1201,
+        208,
+        22,
+        22
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "flex w-full items-center justify-center gap-2 rounded-md border border-red-200 dark:border-red-800 p-3 text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 23,
+      "head": "Clear All Conversations",
+      "rect": [
+        867,
+        927,
+        368,
+        45
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "tag": "DIV",
+      "cls": "prose mt-[-2px] w-full dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 11716,
+      "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+      "rect": [
+        428,
+        -8075,
+        381,
+        7800
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 11716,
+      "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+      "rect": [
+        428,
+        -8075,
+        381,
+        7800
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "prose mt-[-2px] w-full dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 86,
+      "head": "09/11/26 20:32:00\ntool_call\nCopy code\n{\"name\":\"working_directory\",\"arguments\":{}}\nCopy",
+      "rect": [
+        428,
+        -229,
+        381,
+        164
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "!text-base prose dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 63,
+      "head": "tool_call\nCopy code\n{\"name\":\"working_directory\",\"arguments\":{}}",
+      "rect": [
+        428,
+        -213,
+        381,
+        87
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "prose mt-[-2px] w-full dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 760,
+      "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+      "rect": [
+        428,
+        -18,
+        381,
+        648
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 760,
+      "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+      "rect": [
+        428,
+        -18,
+        381,
+        648
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "prose mt-[-2px] w-full dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 46,
+      "head": "09/11/26 20:32:02\n\n鹈鹕骑自行车交互网页\n\nCopy\nRegenerate",
+      "rect": [
+        428,
+        676,
+        381,
+        101
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "!text-base prose dark:prose-invert",
+      "id": "",
+      "testid": "",
+      "role": "",
+      "aria": "",
+      "ph": "",
+      "type": "",
+      "len": 10,
+      "head": "鹈鹕骑自行车交互网页",
+      "rect": [
+        428,
+        692,
+        381,
+        24
+      ]
+    }
+  ],
+  "bigBlocks": [
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "",
+        "id": "__next",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "BODY",
+        "cls": "",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12876,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "id": "__next",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12774,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+          "rect": [
+            0,
+            0,
+            851,
+            988
+          ]
+        },
+        {
+          "tag": "SCRIPT",
+          "cls": "",
+          "id": "__NEXT_DATA__",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "application/json",
+          "len": 615,
+          "head": "{\"props\":{\"pageProps\":{\"_nextI18Next\":{\"initialI18nStore\":{\"en\":{\"administrator\":{},\"common\":{},\"cha",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "NEXT-ROUTE-ANNOUNCER",
+          "cls": "",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            0,
+            988,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            0,
+            0,
+            851,
+            988
+          ]
+        },
+        {
+          "tag": "ASIDE",
+          "cls": "",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 100,
+          "head": "Chat History\nNew Chat\n\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\na few seconds ago\n\nClear All Conversations",
+          "rect": [
+            851,
+            0,
+            400,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "inter_278011f6-module__nDhZHa__className",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "",
+        "id": "__next",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "inter_278011f6-module__nDhZHa__className",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12774,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+          "rect": [
+            0,
+            0,
+            851,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "App",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "inter_278011f6-module__nDhZHa__className",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            16,
+            16,
+            819,
+            956
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "App",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12774,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+          "rect": [
+            0,
+            0,
+            851,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex h-full w-full bg-gray-50 dark:bg-zinc-900 pb-[60px] sm:pb-0",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "MAIN",
+        "cls": "flex h-[calc(100dvh)] w-screen flex-col text-sm text-white dark:text-white light",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex h-full w-full bg-gray-50 dark:bg-zinc-900 pb-[60px] sm:pb-0",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12774,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+          "rect": [
+            0,
+            0,
+            851,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "fixed bottom-0 w-full sm:hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 72,
+          "head": "ChatMenuChatActiveImage GenerationAskWriteTranslateGrammarSettingsLogout",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-1 ",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          280,
+          0,
+          571,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex h-full w-full bg-gray-50 dark:bg-zinc-900 pb-[60px] sm:pb-0",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "dark:bg-zinc-900 dark:border-r dark:border-gray-800",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 77,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar",
+          "rect": [
+            0,
+            0,
+            280,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 ",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12695,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+          "rect": [
+            280,
+            0,
+            571,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 347,
+          "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 99,
+          "head": "Image GenerationGPT Image 2Monthly Usage: 30 / 30 images30 / 30Aspect Ratio1:1Formatjpeg1:1jpegEdit",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 91,
+          "head": "AskDeepSeek V4 FlashCustom promptMonthly Token: 475156 / 500000475156 / 500000System Prompt",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 76,
+          "head": "TranslateDeepSeek V4 FlashMonthly TokenDefault preferencesAuto DetectEnglish",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          280,
+          0,
+          571,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-1 ",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          280,
+          0,
+          571,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12695,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+          "rect": [
+            280,
+            0,
+            571,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-col h-full max-h-full",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          296,
+          0,
+          555,
+          988
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          280,
+          0,
+          571,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex flex-col h-full max-h-full",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12695,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+          "rect": [
+            296,
+            0,
+            555,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "absolute bottom-36 right-0 mb-4 mr-4",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            807,
+            800,
+            28,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex-1 overflow-x-hidden overflow-y-auto",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12611,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          296,
+          64,
+          555,
+          924
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col h-full max-h-full",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12695,
+        "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+        "rect": [
+          296,
+          0,
+          555,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex w-full flex-shrink-0 items-center justify-between px-4 sm:px-6 h-14 sm:h-16 border-b border-gray-200 dark:border-gray-600 bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 33,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...",
+          "rect": [
+            296,
+            0,
+            555,
+            64
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex-1 overflow-x-hidden overflow-y-auto",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12611,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            296,
+            64,
+            555,
+            924
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "absolute bottom-0 left-0 w-full border-transparent bg-gradient-to-b from-transparent via-white to-white dark:border-white/20 dark:via-[#343541] dark:to-[#343541",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 48,
+          "head": "DeepSeek V4 Flash\nMonthly Token: 475156 / 500000",
+          "rect": [
+            280,
+            775,
+            571,
+            213
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          296,
+          -8097,
+          549,
+          7847
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex-1 overflow-x-hidden overflow-y-auto",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12611,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          296,
+          64,
+          555,
+          924
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            296,
+            -8097,
+            549,
+            7847
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50 text-gray-800 dark:bg-zinc-900 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 86,
+          "head": "09/11/26 20:32:00\ntool_call\nCopy code\n{\"name\":\"working_directory\",\"arguments\":{}}\nCopy",
+          "rect": [
+            296,
+            -251,
+            549,
+            210
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            296,
+            -40,
+            549,
+            695
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50 text-gray-800 dark:bg-zinc-900 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 46,
+          "head": "09/11/26 20:32:02\n\n鹈鹕骑自行车交互网页\n\nCopy\nRegenerate",
+          "rect": [
+            296,
+            654,
+            549,
+            147
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "h-[162px] bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            296,
+            826,
+            549,
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          316,
+          -8097,
+          509,
+          7846
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          296,
+          -8097,
+          549,
+          7847
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            316,
+            -8097,
+            509,
+            7846
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "prose mt-[-2px] w-full dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          428,
+          -8075,
+          381,
+          7800
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          316,
+          -8097,
+          509,
+          7846
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "min-w-[80px] flex items-center justify-center self-start pt-2",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            332,
+            -8073,
+            80,
+            48
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "prose mt-[-2px] w-full dark:prose-invert",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            428,
+            -8075,
+            381,
+            7800
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex w-full flex-col gap-2",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          428,
+          -8075,
+          381,
+          7800
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "prose mt-[-2px] w-full dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          428,
+          -8075,
+          381,
+          7800
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex w-full flex-col gap-2",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            428,
+            -8075,
+            381,
+            7800
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          428,
+          -8075,
+          381,
+          7800
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex w-full flex-col gap-2",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 11716,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          428,
+          -8075,
+          381,
+          7800
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            428,
+            -8075,
+            381,
+            7800
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          296,
+          -40,
+          549,
+          695
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex-1 overflow-x-hidden overflow-y-auto",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12611,
+        "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+        "rect": [
+          296,
+          64,
+          555,
+          924
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 11716,
+          "head": "09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nYou are an AI agent powered by Deep",
+          "rect": [
+            296,
+            -8097,
+            549,
+            7847
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50 text-gray-800 dark:bg-zinc-900 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 86,
+          "head": "09/11/26 20:32:00\ntool_call\nCopy code\n{\"name\":\"working_directory\",\"arguments\":{}}\nCopy",
+          "rect": [
+            296,
+            -251,
+            549,
+            210
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            296,
+            -40,
+            549,
+            695
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50 text-gray-800 dark:bg-zinc-900 dark:text-gray-100 -translate-y-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 46,
+          "head": "09/11/26 20:32:02\n\n鹈鹕骑自行车交互网页\n\nCopy\nRegenerate",
+          "rect": [
+            296,
+            654,
+            549,
+            147
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "h-[162px] bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            296,
+            826,
+            549,
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          316,
+          -40,
+          509,
+          694
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "group px-5 border-b border-black/10 dark:border-gray-500 bg-gray-50/30 text-gray-800 dark:bg-zinc-800/50 dark:text-gray-100 -translate-y-6",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          296,
+          -40,
+          549,
+          695
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            316,
+            -40,
+            509,
+            694
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "prose mt-[-2px] w-full dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          428,
+          -18,
+          381,
+          648
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "relative flex gap-4 p-4 text-base mx-auto md:max-w-2xl md:py-6 lg:max-w-2xl lg:px-0 xl:max-w-3xl",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          316,
+          -40,
+          509,
+          694
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "min-w-[80px] flex items-center justify-center self-start pt-2",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 0,
+          "head": "",
+          "rect": [
+            332,
+            -16,
+            80,
+            48
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "prose mt-[-2px] w-full dark:prose-invert",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            428,
+            -18,
+            381,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex w-full flex-col gap-2",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          428,
+          -18,
+          381,
+          648
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "prose mt-[-2px] w-full dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          428,
+          -18,
+          381,
+          648
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex w-full flex-col gap-2",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            428,
+            -18,
+            381,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          428,
+          -18,
+          381,
+          648
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex w-full flex-col gap-2",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 760,
+        "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+        "rect": [
+          428,
+          -18,
+          381,
+          648
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "!text-base prose whitespace-pre-wrap dark:prose-invert",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 760,
+          "head": "09/11/26 20:32:00\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\nCreate a concise title for an AI co",
+          "rect": [
+            428,
+            -18,
+            381,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-1 hidden",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 347,
+        "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex h-full w-full bg-gray-50 dark:bg-zinc-900 pb-[60px] sm:pb-0",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "dark:bg-zinc-900 dark:border-r dark:border-gray-800",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 77,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar",
+          "rect": [
+            0,
+            0,
+            280,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 ",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12695,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+          "rect": [
+            280,
+            0,
+            571,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 347,
+          "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 99,
+          "head": "Image GenerationGPT Image 2Monthly Usage: 30 / 30 images30 / 30Aspect Ratio1:1Formatjpeg1:1jpegEdit",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 91,
+          "head": "AskDeepSeek V4 FlashCustom promptMonthly Token: 475156 / 500000475156 / 500000System Prompt",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 76,
+          "head": "TranslateDeepSeek V4 FlashMonthly TokenDefault preferencesAuto DetectEnglish",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 347,
+        "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-1 hidden",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 347,
+        "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 347,
+          "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-col h-full max-h-full",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 347,
+        "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 347,
+        "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex flex-col h-full max-h-full",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 347,
+          "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-1 hidden",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex h-full w-full bg-gray-50 dark:bg-zinc-900 pb-[60px] sm:pb-0",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 12774,
+        "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar\n\n【角色与背景设定】（仅供你理解自己的角色，",
+        "rect": [
+          0,
+          0,
+          851,
+          988
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "dark:bg-zinc-900 dark:border-r dark:border-gray-800",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 77,
+          "head": "General Chatbot\nChat\nImage Generation\nQuick Tools\nAsk\nWrite\nTranslate\nGrammar",
+          "rect": [
+            0,
+            0,
+            280,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 ",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 12695,
+          "head": "【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用...\n\n09/11/26 20:31:58\n【角色与背景设定】（仅供你理解自己的角色，不必复述；后面【用户】开头的内容才是要处理的请求）\n",
+          "rect": [
+            280,
+            0,
+            571,
+            988
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 347,
+          "head": "All KnowledgeWelcome to VTC GenAI PortalExamples:Explain quantum computing in simple terms.Got any c",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 99,
+          "head": "Image GenerationGPT Image 2Monthly Usage: 30 / 30 images30 / 30Aspect Ratio1:1Formatjpeg1:1jpegEdit",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 91,
+          "head": "AskDeepSeek V4 FlashCustom promptMonthly Token: 475156 / 500000475156 / 500000System Prompt",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 hidden",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 76,
+          "head": "TranslateDeepSeek V4 FlashMonthly TokenDefault preferencesAuto DetectEnglish",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-1 hidden",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 504,
+          "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex flex-col h-full max-h-full",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "relative md:pl-4 flex-1 overflow-hidden bg-white dark:bg-[#343541]",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex flex-col h-full max-h-full",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 504,
+          "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "flex-1 overflow-y-auto",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 476,
+        "head": "Build a clear, effective promptStart with what you know. Suggestions and sensible defaults can compl",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col h-full max-h-full",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 504,
+        "head": "Prompt Generator0/4 providedBuild a clear, effective promptStart with what you know. Suggestions and",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "flex w-full flex-shrink-0 items-center justify-between px-4 sm:px-6 h-14 sm:h-16 border-b border-gray-200 dark:border-gray-600 bg-white dark:bg-[#343541]",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 28,
+          "head": "Prompt Generator0/4 provided",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex-1 overflow-y-auto",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 476,
+          "head": "Build a clear, effective promptStart with what you know. Suggestions and sensible defaults can compl",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "self": {
+        "tag": "DIV",
+        "cls": "mx-auto max-w-4xl space-y-5 px-4 py-6",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 476,
+        "head": "Build a clear, effective promptStart with what you know. Suggestions and sensible defaults can compl",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex-1 overflow-y-auto",
+        "id": "",
+        "testid": "",
+        "role": "",
+        "aria": "",
+        "ph": "",
+        "type": "",
+        "len": 476,
+        "head": "Build a clear, effective promptStart with what you know. Suggestions and sensible defaults can compl",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "siblings": [
+        {
+          "tag": "DIV",
+          "cls": "mx-auto max-w-4xl space-y-5 px-4 py-6",
+          "id": "",
+          "testid": "",
+          "role": "",
+          "aria": "",
+          "ph": "",
+          "type": "",
+          "len": 476,
+          "head": "Build a clear, effective promptStart with what you know. Suggestions and sensible defaults can compl",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

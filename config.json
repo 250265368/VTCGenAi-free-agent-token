@@ -1,0 +1,23 @@
+{
+  "listen_host": "127.0.0.1",
+  "listen_port": 8300,
+  "site": "vtc",
+  "cdp_port": 9222,
+  "timeout_sec": 180,
+  "fast_fail_sec": 150,
+  "_comment_fast_fail_sec": "网页多久没进入生成态/没新回复就判失败；VTC 思考+长回答常超 60s，太小会误杀并触发重试浪费 token",
+  "powershell_exe": "powershell.exe",
+  "model_alias": "web-ai",
+  "max_prompt_chars": 8000,
+  "max_tool_result_chars": 3000,
+  "_comment_max_tool_result_chars": "单条工具返回转发给网页的上限（去噪后 head+tail 截断）;调大保留更多细节但更耗 token",
+  "log_dir": "logs",
+  "api_key": "",
+  "user_data_dir": "",
+  "_comment_api_key": "留空则不校验 Authorization；填写后 Harness 的 custom provider 需填同样的 Bearer 值",
+  "_comment_site": "可选 deepseek / doubao / yuanbao / vtc，共用 CDP 端口，同一时间只能启用一个",
+  "_comment_user_data_dir": "留空则用上游脚本默认值 %TEMP%\\deepseek_debug_profile；换站点前建议换一个目录避免登录态串味",
+  "context_mode": "incremental",
+  "first_turn_background_chars": 0,
+  "_comment_context_mode": "incremental=只发增量（默认）/ full=每轮重发全量；first_turn_background_chars=0 表示不转发 Harness 内部 system 说明"
+}
