@@ -194,13 +194,15 @@ Agent ◀──tool_calls── protocol.py ◀──调用块文本── 网�
 ├── sites.json                    # 站点定义
 ├── panel.html                    # 控制台（根目录副本）
 ├── harness-provider.example.yaml # 接入示例
+├── README.md / LICENSE / .gitignore
 ├── bridge/                       # 核心源码
 │   ├── app.py                    # 双击入口
 │   ├── server.py                 # HTTP 服务 / 会话池 / 增量上下文
 │   ├── protocol.py               # OpenAI ⇄ 网页文本 协议转换
 │   ├── panel.html                # 控制台页面
 │   ├── sites.json / config.json
-│   ├── dist/                     # 打包产物
+│   ├── dist/                     # 打包产物（含 EAgentBridge.exe）
+│   ├── build/                    # PyInstaller 中间产物（已加入 .gitignore）
 │   └── scripts/                  # 站点脚本（open / send / close）
 ├── scripts/                      # 顶层站点脚本
 └── upstream/EAgent/              # 上游 EAgent 源码（GPL-3.0，见 Credits）
